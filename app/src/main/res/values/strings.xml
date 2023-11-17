@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LifeCycle</string>
+
+    <string name="market_name">Cool Market</string>
+
+    <string name="Button">Click</string>
+    <string name="clear_button">Clear</string>
+    <string name="new_activity">next page</string>
+
+    <string name="Text_hint">Комментарий</string>
+
+    <string name="RB1">RED</string>
+    <string name="RB2">GREEN</string>
+    <string name="RB3">BLUE</string>
+
+    <string name="CB1">бананчкики</string>
+    <string name="CB2">бананчкики</string>
+    <string name="CB3">бананчкики</string>
+    <string name="CB4">бананчкики</string>
+    <string name="CB5">бананчкики</string>
+    <string name="CB6">бананчкики</string>
+    <string name="CB7">бананчкики</string>
+    <string name="CB8">бананчкики</string>
+    <string name="CB9">бананчкики</string>
+    <string name="CB10">бананчкики</string>
+    <string name="CB11">бананчкики</string>
+    <string name="CB12">бананчкики</string>
+
+</resources>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:text="@string/market_name">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="20sp">
+
+            <CheckBox
+                android:id="@+id/CB1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB1"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB2"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB3"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB4"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB5"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB6"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:textColor="@color/yellow"
+            android:layout_marginStart="63sp">
+
+            <CheckBox
+                android:id="@+id/CB7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB7"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB8"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB9"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB10"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB11"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/CB12"
+                android:buttonTint="@color/red"
+                android:textColor="@color/yellow">
+            </CheckBox>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="50sp">
+
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/RB1"
+            android:textColor="@color/red"
+            android:textStyle="bold">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/RB2"
+            android:layout_marginHorizontal="20sp"
+            android:textColor="@color/green"
+            android:textStyle="bold">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/RB3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/RB3"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold">
+        </RadioButton>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Et"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginHorizontal="20sp"
+        android:hint="@string/Text_hint"
+        android:textColor="@color/green"
+        android:textColorHint="@color/light_blue">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40sp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/But1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/Button"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:layout_marginStart="50sp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|start">
+
+            <Button
+                android:id="@+id/But3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:backgroundTint="@color/green"
+                android:onClick="next_page"
+                android:text="@string/new_activity"
+                android:textColor="@color/yellow"
+                android:textSize="11sp">
+            </Button>
+        </LinearLayout>
+            <Button
+                android:id="@+id/But2"
+                android:layout_width="wrap_content"
+                android:layout_height="75sp"
+                android:layout_gravity="bottom|end"
+                android:backgroundTint="@color/purple"
+                android:text="@string/clear_button"
+                android:textColor="@color/yellow"
+                android:textSize="16sp">
+            </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
